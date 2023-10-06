@@ -1,5 +1,21 @@
-# Object file
-*.o
+def cvet(k, l, m, n):
+    """проверка на одинаковый цвет поля"""
+    cvet1 = (k + l) % 2
+    cvet2 = (m + n) % 2
+    if cvet1 == cvet2:
+        return True
+    else:
+        return False
+print("Ведите номера координат для полей k,l и m,n")
+k = int(input("Координата для вертикали: "))
+l = int(input("Координата для горизонтали: "))
+m = int(input("Координата для вертикали: "))
+n = int(input("Координата для горизонтали: "))
+if (k<=0 or k>8) or (l<=0 or k>8) or (m<=0 or m>8) or (n<=0 or n>8):
+    print("Введите значения от 1 до 8!!!")
 
-# Ada Library Information
-*.ali
+else:
+    if cvet(k, l, m, n):
+        print("Поле (k, l) и поле (m, n) одного цвета")
+    else:
+        print("Поле (k, l) и поле (m, n) разного цвета")
