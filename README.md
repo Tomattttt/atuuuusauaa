@@ -9,17 +9,21 @@
 Среда разработки: PyCharm.
 #### Скриншоты тестов
 1 тест.
+
 ![вывод 1](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/fd058a55-a48d-46dc-8e71-141420bcac0c)
 ![поле 1](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/b44c63da-25c6-4c3f-b997-00a9ca2049ec)
 
 2 тест.
+
 ![вывод 2](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/e50eed69-e295-4250-8610-45098def5c84)
 ![поле 2](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/67377130-ebd0-4b6b-b450-e8723b9e5f14)
 
 3 тест. 
+
 ![вывод 3](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/5e219280-fa6a-4b0d-b1c8-8fdef437dc3c)
 ![поле 3](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/3d9c96c0-381d-4233-a296-350d82aac37b)
 
 4 тест. Ошибка вывода набранных чисел.
+
 ![ошибка вывода](https://github.com/Tomattttt/atuuuusauaa/assets/146252320/8bd71ebc-d2e2-4ea2-b360-4b3ddafb278d)
 
