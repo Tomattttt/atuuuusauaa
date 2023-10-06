@@ -6,6 +6,21 @@ def cvet(k, l, m, n):
         return True
     else:
         return False
+def Figure(figure, k, l, m, n):
+    """проверка фигур"""
+    if figure == "ферзь":
+        if k == m or l == n or abs(k - m) == abs(l - n):
+            return True
+    elif figure == "ладья":
+        if k == m or l == n:
+            return True
+    elif figure == "слон":
+        if abs(k - m) == abs(l - n):
+            return True
+    elif figure == "конь":
+        if abs(k - m) == 1 and abs(l - n) == 2 or abs(k - m) == 2 and abs(l - n) == 1:
+            return True
+    return False
 print("Ведите номера координат для полей k,l и m,n")
 k = int(input("Координата для вертикали: "))
 l = int(input("Координата для горизонтали: "))
@@ -19,3 +34,10 @@ else:
         print("Поле (k, l) и поле (m, n) одного цвета")
     else:
         print("Поле (k, l) и поле (m, n) разного цвета")
+figure = input("Выберите одну фигуру: ферзь, слон, конь, ладья. Введите её:  ")
+
+if Figure(figure, k, l, m, n):
+        print("Фигура " +figure + " угрожает полю (m, n).")
+else:
+        print("Фигура " +figure + " не угрожает полю (m, n).")
+
